@@ -1,0 +1,23 @@
+.movie-card,
+.add-to-favourite,
+.remove-from-favourite {
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  transition: all 0.2s ease;
+  transform: scale(1.05);
+}
+
+.add-to-favourite:hover,
+.remove-from-favourite:hover {
+  transform: scale(1.05);
+}
+
+.add-to-favourite:hover {
+  color: teal;
+}
+
+.remove-from-favourite:hover {
+  color: crimson;
+}
